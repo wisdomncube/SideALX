@@ -1,1 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
 
+
+<head>
+<meta charset="utf-8">
+<title>Wayne's Furnitures</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">   
+<!--Color Switcher Mockup-->
+<link href="css/color-switcher-design.css" rel="stylesheet">
+<!--Color Themes-->
+<link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    
+    <!-- Main Header-->
+    <header class="main-header header-style-one">
+        <div class="auto-container">
+            <div class="header-lower">
+                <div class="main-box clearfix">
+
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md ">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->      
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon flaticon-menu-button"></span>
+                                </button>
+                            </div>
+                            
+                            <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                 
+                                <ul class="navigation clearfix">
+                                    <li class="current dropdown"><a href="#">Home</a>
+                                       
+                                    </li>
+                                    <li class="dropdown"><a href="#about">About</a>
+                                       
+                                    </li>
+                                    <li class="dropdown"><a href="#services">Services</a>
+                                       
+                                    </li>
+                                    <li class="dropdown"><a href="#projects">Projects</a>
+                                        
+                                    </li>
+                                  
+                                   
+                                    <li><a href="#contact">Stats</a></li>
+                                    <li class="dropdown has-mega-menu"><a href="#testimonials">Testimonials</a>
+                                        <div class="mega-menu">
+                                            <div class="mega-menu-bar row clearfix">
+                                                <div class="column col-lg-3 col-md-3 col-sm-12">
+                                                    <h3>About</h3>
+                                                  
+                                                </div>
+                                                <div class="column col-lg-3 col-md-3 col-sm-12">
+                                                    <h3>Services</h3>
+                                                 
+                                                </div>
+                                                <div class="column col-lg-3 col-md-3 col-sm-12">
+                                                    <h3>Projects</h3>
+                                                   
+                                                </div>
+                                                <div class="column col-lg-3 col-md-3 col-sm-12">
+                                                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav><!-- Main Menu End-->                        
+
+                        <!-- Outer Box-->
+                        <div class="outer-box">
+                            <!--Search Box-->
+                         
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Main Header -->
+    
+    <!-- Bnner Section -->
+    <section class="banner-section">
+        <div class="banner-carousel owl-carousel owl-theme">
+            <div class="slide-item" style="background-image: url(images/main-slider/image-1.jpg);">
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h2>Furniture is <br> Visual Art.</h2>
+                        <div class="text">Where wood whispers its timeless tale.</div>
+                        <div class="link-box">
+                            <a href="" class="theme-btn btn-style-one">Welcome To Wayne's Furnitures</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-item" style="background-image: url(images/main-slider/image14.jpeg);">
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h2>Furniture is <br> Visual Art.</h2>
+                        <div class="text">Where wood whispers its timeless tale.</div>
+                        <div class="link-box">
+                            <a href="" class="theme-btn btn-style-one">Welcome To Wayne's Furnitures</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide-item" style="background-image: url(images/main-slider/image17.jpeg);">
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h2>Furniture is <br> Visual Art.</h2>
+                        <div class="text">Where wood whispers its timeless tale.</div>
+                        <div class="link-box">
+                            <a href="" class="theme-btn btn-style-one">Welcome To Wayne's Furnitures</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-box">
+            <div class="auto-container clearfix">
+                <ul class="contact-info">
+                    <li><span>Phone :</span> (+27) 81-522-1467</li>
+                    <li><span>EMAIL :</span> <a href="#">info@wyfurnitures.co.za</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End Bnner Section -->
+
+    <!-- About Section -->
+    
+    <section id="about" class="about-section" style="background-image: url(images/background/1.jpg);">
+        <div class="auto-container">
+            <div class="row no-gutters">
+                <!-- Image Column -->
+                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="title-box wow fadeInLeft" data-wow-delay='1200ms'>
+                            <h2>ABOUT <br> US</h2>
+                        </div>
+                   
+                        <div class="image-box">
+                            <figure class="alphabet-img wow fadeInRight"><img src="images/resource/alphabet-image.png" alt=""></figure>
+                            <figure class="image wow fadeInRight" data-wow-delay='600ms'><img src="images/main-slider/image17.jpeg" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Column -->
+                <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner-column wow fadeInLeft">
+                        <div class="content-box">
+                            <div class="title">
+                                <h2>Crafting Comfort, <br>Unveiling Elegance</h2>
+                            </div>
+                            <div class="text">Welcome to Wayne's Furnitures, your destination for finely crafted furniture pieces that transform houses into homes. Situated in the heart of Tembisa, South Africa, we specialize in creating exquisite headboards, kitchen units, tables, TV stands, and more.
+
+                                <br>
+                                
+                                Our journey began with a passion for the art of woodworking. Each piece that leaves our workshop is a testament to the dedication and expertise of our artisans. From intricately designed headboards that redefine your bedroom's aesthetics to versatile kitchen units that combine form and function, our creations are a harmonious blend of design and practicality.
+                                
+                               <br>
+                                
+                                We understand that furniture is more than mere utility; it's an expression of your style and personality. Our pieces seamlessly integrate into your living spaces, adding a touch of elegance that enhances the overall ambiance.
+                                
+                                <br>
+                                
+                                While rooted in Tembisa, our designs draw inspiration from global trends. Our furniture reflects a fusion of local artistry and international influences, resulting in pieces that are timeless and universally appealing.
+                                
+                                <br>
+                                
+                                Quality is at the heart of everything we do. We meticulously source materials and prioritize exceptional craftsmanship to ensure that each piece is not only visually stunning but also built to last.</div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="upper-box" style="background-image: url(images/main-slider/image9.jpeg);">
+            <div class="auto-container">    
+                <div class="sec-title text-center light">
+                    <span class="float-text">Specialization</span>
+                    <h2>Our Specialization</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-box">
+            <div class="auto-container">
+                <div class="services-carousel owl-carousel owl-theme">
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href=""><img src="images/main-slider/image9.jpeg" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="">Hairpin Tv Stand</a></h3>
+                                <div class="text">Nestle your TV in modern charm with our Hairpin TV Stand. A sleek blend of metal and wood, offering both style and sturdy support for your entertainment setup.</div>
+                              
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="image-box" style="width: 200px; height: 250px; margin: 0 auto;">
+                                <figure class="image"><a href="service-detail.html"><img src="images/main-slider/image14.jpeg" alt=""></a></figure>
+                            </div>
+                            
+                            <div class="lower-content">
+                                <h3><a href="service-detail.html">Chest Of Drawers</a></h3>
+                                <div class="text">Experience functional elegance with our Chest of Drawers. Crafted to perfection, it offers ample storage while adding a touch of sophistication to your space.</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service-detail.html"><img src="images/main-slider/image17.jpeg" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service-detail.html">Stylish Tv Stand</a></h3>
+                                <div class="text">Discover sleek sophistication with our Stylish TV Stand, blending contemporary design and practicality for your modern entertainment setup.</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><a href="service-detail.html"><img src="images/main-slider/image4.jpeg" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="service-detail.html">Headboard</a></h3>
+                                <div class="text">Enhance your bedroom oasis with our luxurious Headboard. Crafted for comfort and style, it's the perfect statement piece for your personal retreat.</div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                     
+                    <!-- Service Block -->
+                    
+                    <!-- Service Block -->
+                     
+
+                    <!-- Service Block -->
+                 
+            </div>
+        </div>
+    </section>
+    <!--End Services Section -->
+
+    <!-- Fun Fact Section -->
+    <section id="contact" class="fun-fact-section">
+        <div class="outer-box" style="background-image: url(images/background/3.jpg);">
+            <div class="auto-container">
+                <div class="fact-counter">
+                    <div class="row">
+                        <!--Column-->
+                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                            <div class="count-box">
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="5">0</span></div>
+                                <h4 class="counter-title">Years Of <br>Experience</h4>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="count-box">
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="237">0</span></div>
+                                <h4 class="counter-title">Projects <br>Taken</h4>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                            <div class="count-box">
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="50">0</span>+</div>
+                                <h4 class="counter-title">Loyal <br> Customers</h4>
+                            </div>
+                        </div>
+
+                        <!--Column-->
+                        <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
+                            <div class="count-box">
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="99">0</span>%</div>
+                                <h4 class="counter-title">Cust. <br> Satisfaction</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Fun Fact Section -->
+
+    <!-- Project Section -->
+    <section id="projects" class="projects-section">
+        <div class="auto-container">
+            <div class="sec-title text-right">
+                <span class="float-text">Project</span>
+                <h2>Our Projects</h2>
+            </div>
+        </div>
+        
+        <div class="inner-container">
+            <div class="projects-carousel owl-carousel owl-theme">
+                <!-- Project Block -->
+                <div class="project-block">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/main-slider/image10.jpeg" alt=""></figure>
+                        <div class="overlay-box">
+                            <h4><a href=""></a></h4>
+                            <div class="btn-box">
+                                <a href="images/main-slider/image10.jpeg" class="lightbox-image" data-fancybox="gallery"><i class="fa fa-search"></i></a>
+                                <a href=""><i class="fa fa-external-link"></i></a>
+                            </div>
+                            <span class="tag"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Block -->
+                <div class="project-block">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/gallery/5.jpg" alt=""></figure>
+                        <div class="overlay-box">
+                            <h4><a href=""></a></h4>
+                            <div class="btn-box">
+                                <a href="images/gallery/5.jpg" class="lightbox-image" data-fancybox="gallery"><i class="fa fa-search"></i></a>
+                                <a href=""><i class="fa fa-external-link"></i></a>
+                            </div>
+                            <span class="tag"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Block -->
+                <div class="project-block">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/main-slider/image28.jpeg" alt=""></figure>
+                        <div class="overlay-box">
+                            <h4><a href=""></a></h4>
+                            <div class="btn-box">
+                                <a href="images/main-slider/image28.jpeg" class="lightbox-image" data-fancybox="gallery"><i class="fa fa-search"></i></a>
+                                <a href=""><i class="fa fa-external-link"></i></a>
+                            </div>
+                            <span class="tag"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Block -->
+                <div class="project-block">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/gallery/1.jpg" alt=""></figure>
+                        <div class="overlay-box">
+                            <h4><a href=""></a></h4>
+                            <div class="btn-box">
+                                <a href="images/gallery/1.jpg" class="lightbox-image" data-fancybox="gallery"><i class="fa fa-search"></i></a>
+                                <a href=""><i class="fa fa-external-link"></i></a>
+                            </div>
+                            <span class="tag"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Block -->
+                <div class="project-block">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/main-slider/image16.jpeg" alt=""></figure>
+                        <div class="overlay-box">
+                            <h4><a href=""></a></h4>
+                            <div class="btn-box">
+                                <a href="images/main-slider/image16.jpeg" class="lightbox-image" data-fancybox="gallery"><i class="fa fa-search"></i></a>
+                                <a href=""><i class="fa fa-external-link"></i></a>
+                            </div>
+                            <span class="tag"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Block -->
+                <div class="project-block">
+                    <div class="image-box">
+                        <figure class="image"><img src="images/gallery/2.jpg" alt=""></figure>
+                        <div class="overlay-box">
+                            <h4><a href=""></a></h4>
+                            <div class="btn-box">
+                                <a href="images/gallery/2.jpg" class="lightbox-image" data-fancybox="gallery"><i class="fa fa-search"></i></a>
+                                <a href=""><i class="fa fa-external-link"></i></a>
+                            </div>
+                            <span class="tag"></span>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Project Section -->
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <span class="title"></span>
+                <h2>Our Values</h2>
+            </div>
+
+            <div class="row clearfix">
+                <!-- Team Block -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><a href="team.html"><img src="images/resource/team-1.jpg" alt=""></a></div>
+                          
+                            <h3 class="name"><a href="">Craftsman Excellence</a></h3>
+                        </div>
+                        <span class="designation"></span>
+                    </div>
+                </div>
+
+                <!-- Team Block -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><a href="team.html"><img src="images/resource/team-2.jpg" alt=""></a></div>
+                            
+                            <h3 class="name"><a href="">Design Innovation</a></h3>
+                        </div>
+                        <span class="designation"></span>
+                    </div>
+                </div>
+
+                <!-- Team Block -->
+                <div class="team-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><a href="team.html"><img src="images/resource/team-3.jpg" alt=""></a></div>
+                           
+                            <h3 class="name"><a href="">Customer-Centric Approach</a></h3>
+                        </div>
+                        <span class="designation"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End Team Section -->
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="outer-container clearfix">
+            <!-- Title Column -->
+            <div class="title-column clearfix">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <span class="float-text">testimonial</span>
+                        <h2>What Our Clients Say</h2>
+                    </div>
+                    <div class="text"></div>
+                </div>
+            </div>
+
+            <!-- Testimonial Column -->
+            <div id="testimonials" class="testimonial-column clearfix" style="background-image: url(images/background/4.jpg);">
+                <div class="inner-column">
+                    <div class="testimonial-carousel owl-carousel owl-theme">
+                        <!-- Testimonial Block -->
+                        <div class="testimonial-block">
+                            <div class="inner-box">
+                                <div class="image-box"><img src="" alt=""></div>
+                                <div class="text">I couldn't be happier with the coffee table I purchased from Wayne. From the moment I stepped in, he was incredibly helpful, guiding me through their vast collection. The quality of the piece I chose is exceptional, and they have transformed my home into a haven of style.</div>
+                                <div class="info-box">
+                                    <h4 class="name">Margareth Moyo</h4>
+                                    <span class="designation"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Block -->
+                        <div class="testimonial-block">
+                            <div class="inner-box">
+                                <div class="image-box"><img src="images/resource/thumb-1.jpg" alt=""></div>
+                                <div class="text">Wayne exceeded my expectations in every way. The range of options they offer is impressive, catering to various tastes and preferences. The attention to detail in their craftsmanship is evident, and the furniture blends seamlessly into my space. Getting my Tv stand done here was a delightful experience, and I'll definitely be returning for more.</div>
+                                <div class="info-box">
+                                    <h4 class="name">Themba Khoza</h4>
+                                    <span class="designation"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial Block -->
+                        <div class="testimonial-block">
+                            <div class="inner-box">
+                                <div class="image-box"><img src="images/resource/thumb-1.jpg" alt=""></div>
+                                <div class="text">I recently furnished my new apartment with pieces from Wayne and I am thrilled with the outcome. Wayne understood my needs perfectly and helped me select Headboard that complemented my aesthetic. The quality and durability of the furniture are remarkable, and I'm constantly receiving compliments on how well my bedroom is put together.</div>
+                                <div class="info-box">
+                                    <h4 class="name">Dimakatso Morena</h4>
+                                    <span class="designation"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Testimonial Section -->
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="auto-container">
+            <div class="sec-title">
+                <span class="float-text">Excellence</span>
+                <h2></h2>
+            </div>
+            <div class="row">
+                <!-- News Block -->
+                 
+                <!-- News Block -->
+               
+
+                <!-- News Block -->
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End News Section -->
+
+    <!--Clients Section-->
+    <section class="clients-section">
+        <div class="inner-container">
+            <div class="sponsors-outer">
+                <!--Sponsors Carousel-->
+              
+            </div>
+        </div>
+    </section>
+    <!--End Clients Section-->
+
+
+    <!-- Main Footer -->
+    <footer class="main-footer" style="background-image: url(images/background/5.jpg);">
+        <div class="auto-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row">
+                    <!--Big Column-->
+                    <div class="big-column col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <!--Footer Column-->
+                       
+                            <!--Footer Column-->
+                      
+                    
+                    <!--Big Column-->
+                    <div class="big-column col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+                            <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                                 <div class="footer-widget links-widget">
+                                    <h2 class="widget-title">Useful links</h2>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="index.html">About</a></li>
+                                            <li><a href="index.html">Services</a></li>
+                                            <li><a href="index.html">Project</a></li>
+                                            <li><a href="index.html">News</a></li>
+                                            <li><a href="index.html">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                             
+                                <div class="footer-widget gallery-widget">
+                                    <h2 class="widget-title"></h2>
+                                    <div class="widget-content">
+                                         
+                                    </div>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="social-links">
+                        <ul class="social-icon-two">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="container border-top border-secondary pt-5">
+                        <p class="m-0 text-center text-white">
+                            <p>&copy; 2023 All Rights Reserved. | Designed by <a href="https://designdose.co.za" target="_blank">Design Dose</a></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Main Footer -->
+
+</div>
+
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-circle-o-up"></span></div>
+<script src="js/jquery.js"></script> 
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/script.js"></script>
+<!-- Color Setting -->
+<script src="js/color-settings.js"></script>
+</body>
+
+
+</html>
